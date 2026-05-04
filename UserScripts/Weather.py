@@ -71,8 +71,8 @@ ENV_PLACE = os.getenv("WEATHER_PLACE")
 # Example: MANUAL_PLACE = "Concord, NH, US"
 MANUAL_PLACE: Optional[str] = "" #Set your city HERE
 
-# Location icon in tooltip (default to a standard emoji to avoid missing glyphs)
-LOC_ICON = os.getenv("WEATHER_LOC_ICON", "📍")
+# Location icon in tooltip (standard character to avoid emojis)
+LOC_ICON = os.getenv("WEATHER_LOC_ICON", "*")
 # Enable/disable Pango markup in tooltip (1/0, true/false)
 TOOLTIP_MARKUP = os.getenv("WEATHER_TOOLTIP_MARKUP", "0").lower() in ("1", "true", "yes")
 # Optional debug logging to stderr (set WEATHER_DEBUG=1 to enable)

@@ -15,7 +15,7 @@ keybinds_conf="$HOME/.config/hypr/configs/Keybinds.conf"
 user_keybinds_conf="$HOME/.config/hypr/UserConfigs/UserKeybinds.conf"
 laptop_conf="$HOME/.config/hypr/UserConfigs/Laptops.conf"
 rofi_theme="$HOME/.config/rofi/config-keybinds.rasi"
-msg='☣️ NOTE ☣️: Clicking with Mouse or Pressing ENTER will have NO function'
+msg='NOTE: Clicking with Mouse or Pressing ENTER will have NO function'
 
 # collect raw bind lines (strip end-of-line comments) from available files
 files=("$keybinds_conf" "$user_keybinds_conf")

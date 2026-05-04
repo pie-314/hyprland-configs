@@ -28,8 +28,8 @@ icon_off() {
 icon_on() {
   case "$ICON_MODE" in
     sunset)
-      # sunset emoji (falls back to tofu if no emoji font)
-      printf "🌇"
+      # sunset icon (using standard sun symbol)
+      printf "☀"
       ;;
     blue)
       # no color in text; rely on CSS .on to style if desired
