@@ -10,7 +10,7 @@ case $LAYOUT in
 "master")
 	hyprctl keyword general:layout dwindle
 	# SUPER+J/K are global and managed by KeybindsLayoutInit.sh; only manage SUPER+O here
-	hyprctl keyword bind SUPER,O,togglesplit
+	hyprctl keyword bind SUPER,O,layoutmsg,togglesplit
   notify-send -e -u low -i "$notif" " Dwindle Layout"
 	;;
 "dwindle")
